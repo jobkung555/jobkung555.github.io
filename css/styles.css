@@ -1,0 +1,88 @@
+/* .bg1 {
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 500px;
+    background-image: url(https://www.24ksolutions.com/wp-content/uploads/2019/01/working.jpg);
+}
+
+.filter-round {
+    filter: url(#round);
+}
+
+.mainbg{
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 50% 100%, 0 50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100vh;
+    background-image: url(../img/chrysanthemum-7145348_1920.jpg);
+} */
+
+/* general */
+.flex{
+    display: flex;
+}
+/* === end general ===*/
+/* === about ===*/
+.about-bg{
+    background: #1F677A;
+    padding: 100px 0 0;
+}
+.about{
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 100px;
+}
+.about-left{
+    width: 50%;
+    /* background: #000;
+    color: #FFF; */
+}
+.about-right{
+    width: 50%;
+    background: #FFF;
+    padding: 30px;
+    /* background: #000;
+    color: #FFF; */
+}
+.about-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 500px;
+    background-image: url(../img/10353375_10203925424720969_2981178867383107526_o.jpg);
+}
+.about h2{
+    font-weight: bold;
+    color: #00677A;
+}
+.about-ul{
+    padding: 0;
+}
+.about-ul > li{
+    list-style: none;
+    display: flex;
+}
+.about-ul > li span:first-child{
+    width: 150px;
+    font-weight: bold;
+    color: #00677A;
+}
+.about-ul > li span:nth-child(2){
+    width: calc(100% - 150px);
+}
+/* === end About ===*/
+
+/* === line ===*/
+
+.csstransition .scollnep {
+    stroke-dasharray: 1300;
+    stroke-dashoffset: 1300;
+    transition: 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.csstransition .scollnep.is-nep {
+    stroke-dashoffset: 0;
+    transition: 3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+/* === end line ===*/
