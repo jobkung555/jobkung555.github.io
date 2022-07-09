@@ -4,20 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="img/icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome-free-6.1.1-web/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="font/PermanentMarker-Regular.ttf" rel="stylesheet">
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/js.js"></script>
-    <title>Job</title>
+    <title>Thamasak</title>
 </head>
 
-<body id="body">
-    <section class="about-bg">
-        <div class="about flex">
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <h2>Thamasak</h2>
+                <i class="fa-solid fa-bars icon-menu"></i>
+                <ul class="menu">
+                    <li><a href="#sec-about" class="nav-link">About<span></span></a></li>
+                    <li><a href="#sec-contact" class="nav-link">Contact<span></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="sec-top">
+        <div class="box-top container">
+            <div class="top-img"></div>
+            <div class="title-name">
+                <h3 class="animate-lefttoright scollnep">Hello</h3>
+                <h2 class="animate-lefttoright scollnep">I'm Thamasak Sanongdet</h2>
+                <h3 class="animate-lefttoright scollnep">A Frond end developer</h3>
+            </div>
+        </div>
+    </section>
+    <section id="sec-about" class="about-bg">
+        <div class="about">
             <div class="about-left">
-                <div class="about-img "></div>
+                <div class="about-img"></div>
             </div>
             <div class="about-right">
                 <h2>About Me</h2>
@@ -30,6 +54,7 @@
                 </p>
                 <h2>Profile</h2>
                 <ul class="about-ul">
+                    <li><span>Name</span><span>Thamasak Sanongdet</span></li>
                     <li><span>Date of Birth</span><span>3 July 1992</span></li>
                     <li><span>Age</span><span>30</span></li>
                     <li><span>Nationality</span><span>Thai</span></li>
@@ -39,7 +64,7 @@
                 </ul>
             </div>
         </div>
-        <div class="container text-center">
+        <div class="container1000 text-center">
             <svg id="line1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 643 195">
                 <defs>
                     <style>
@@ -69,6 +94,11 @@
                 </g>
                 <g id="Layer_1" data-name="Layer 1">
                     <line class="line1-2" x1="314.5" y1="116.5" x2="314.5" y2="194.75" />
+                    <g class="animate-toptodown scollnep">
+                        <text class="line1-4" transform="translate(380 90.8)">
+                            <tspan class="line2-3">Education</tspan>
+                        </text>
+                    </g>
                     <circle class="line1-3" cx="314" cy="88" r="30.5" />
                     <circle class="line1-4" cx="314.5" cy="88.5" r="21" />
                 </g>
@@ -76,7 +106,7 @@
         </div>
     </section>
     <section>
-        <div class="container text-center csstransition">
+        <div class="container1000 text-center">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 648 513.42">
                 <defs>
                     <style>
@@ -116,18 +146,21 @@
                         .line2-16 {
                             letter-spacing: -0.01em;
                         }
+
                         .line2-35 {
                             font-size: 24.84px;
                         }
+
                         .line2-36 {
                             letter-spacing: 0.01em;
                         }
+
                         .line2-43 {
                             letter-spacing: 0em;
                         }
                     </style>
                 </defs>
-                <g id="Layer_3" class="scollnep" data-name="Layer 3">
+                <g id="Layer_3" class="linenep scollnep" data-name="Layer 3">
                     <path class="line2-1"
                         d="M946.5,256.75v69.56c0,9.69-9,17.54-20.2,17.54H652.11c-11.11,0-20.11,7.82-20.11,17.47V621.51c0,8.47,7.9,15.33,17.64,15.33H863.52c10,0,18,7,18.14,15.61l.23,22.13c.08,7.16,6.78,12.92,15,12.92h34.72c8.2,0,14.84,5.8,14.79,12.92l-.49,69.73"
                         transform="translate(-629.5 -256.75)" />
@@ -135,34 +168,135 @@
                         d="M946.5,637.55h312.09c9.06,0,16.41-7,16.41-15.56V499.07c0-8.87-7.58-16.07-16.94-16.07H677.59"
                         transform="translate(-629.5 -256.75)" />
                 </g>
-                <g id="Layer_4" class="scollnep" data-name="Layer 4"><text class="line2-2" transform="translate(93.5 134.8)">
-                        <tspan class="line2-3">Aksorn Institute of Technology Pattaya</tspan>
-                    </text><text class="line2-14" transform="translate(163.52 167.13)">IT</text><text class="line2-15"
-                        transform="translate(165.43 187.09)">
-                        <tspan class="line2-16">Learning C, C#, JAVA, HTML, CSS,Javascript, MySql, Photoshop, Illustrator,
-                            Flash Animation</tspan>
-                    </text><text class="line2-35" transform="translate(94.73 280.45)">
-                        <tspan class="line2-36">Mahanakorn University of Technology</tspan>
-                    </text><text class="line2-14" transform="translate(165.03 315.56)">
-                        <tspan class="line2-43">Multimedia</tspan>
-                        <tspan x="19.37" y="0"></tspan>
-                    </text><text class="line2-15" transform="translate(166.43 336.51)">
-                        <tspan class="line2-16">Learning Photoshop, Illustrator, Flash ActionScript, Video Editing
-                            Sofware, C# language, Unity3D, Maya</tspan>
-                    </text>
-                    <image width="827" height="827" transform="translate(93.5 143.25) scale(0.06)"
-                        xlink:href="img/59632_345441695553505_854252013_n.png" />
-                    <image width="1042" height="1042" transform="translate(90.5 288.25) scale(0.06)"
-                        xlink:href="img/274642638_5239643149381287_3071016361816920433_n.jpg" />
+                <g id="Layer_4" class="linenep scollnep" data-name="Layer 4">
+                    <g class="animate-righttoleft scollnep">
+                        <image width="827" height="827" transform="translate(93.5 143.25) scale(0.06)"
+                            xlink:href="img/59632_345441695553505_854252013_n.png" />
+                        <text class="line2-2" transform="translate(93.5 134.8)">
+                            <tspan class="line2-3">Aksorn Institute of Technology Pattaya</tspan>
+                        </text><text class="line2-14" transform="translate(163.52 167.13)">IT</text><text
+                            class="line2-15" transform="translate(165.43 187.09)">
+                            <tspan class="line2-16">Learning C, C#, JAVA, HTML, CSS,Javascript, MySql, Photoshop,
+                                Illustrator,
+                                Flash Animation</tspan>
+                        </text>
+                    </g>
+                    <g class="animate-lefttoright scollnep">
+                        <text class="line2-35" transform="translate(94.73 280.45)">
+                            <tspan class="line2-36">Mahanakorn University of Technology
+                            </tspan>
+                        </text><text class="line2-14" transform="translate(165.03 315.56)">
+                            <tspan class="line2-43">Multimedia</tspan>
+                            <tspan x="19.37" y="0"></tspan>
+                        </text><text class="line2-15" transform="translate(166.43 336.51)">
+                            <tspan class="line2-16">Learning Photoshop, Illustrator, Flash
+                                ActionScript, Video Editing
+                                Sofware, C# language, Unity3D, Maya</tspan>
+                        </text>
+
+                        <image width="1042" height="1042" transform="translate(90.5 288.25) scale(0.06)"
+                            xlink:href="img/274642638_5239643149381287_3071016361816920433_n.jpg" />
+                    </g>
                 </g>
             </svg>
         </div>
     </section>
-    <!-- <div class="container">
-        <div class="filter-round">
-            <div class="bg1"></div>
+    <section class="sec-beforework"></section>
+    <section class="sec-work">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 filter-round img-workskll">
+                    <div class="bgcom animate-lefttoright scollnep"></div>
+                </div>
+                <div class="col-md-6 work-details">
+                    <div class="work-box animate-righttoleft scollnep">
+                        <h2 class="text-center">Work Experience</h2>
+                        <ul class="work-ul">
+                            <li><span>2016-2018</span><span><b class="work-title">Voova Group</b><br>Programer</span>
+                            </li>
+                            <li><span>2018-2022</span><span><b class="work-title">Mass Appeal</b><br>Front end
+                                    developer</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div> -->
+    </section>
+    <section class="sec-skill">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 skill-details">
+                    <div class="work-box animate-lefttoright scollnep">
+                        <h2 class="text-center">Skill</h2>
+                        <ul class="skill-ul">
+                            <li><span class="spanicon"><i class="fa-brands fa-3x fa-html5"></i></span><span class="color-blue"><b class="work-title">HTML</b><br>Better</span></li>
+                            <li><span class="spanicon"><i class="fa-brands fa-3x fa-css3-alt"></i></span><span class="color-blue"><b class="work-title">CSS</b><br>Better</span></li>
+                            <li><span class="spanicon"><i class="fa-brands fa-3x fa-js-square"></i></span><span class="color-blue"><b class="work-title">Javascript</b><br>Better</span></li>
+                            <li><span class="spanicon"><i class="fa-brands fa-3x fa-php"></i></span><span class="color-blue"><b class="work-title">PHP</b><br>Better</span></li>
+                            <li><span class="spanicon"><i class="fa-solid fa-3x fa-database"></i></span><span class="color-yellow"><b class="work-title">SQL</b><br>Good</span></li>
+                            <li><span class="spanicon"><i class="fa-brands fa-3x fa-python"></i></span><span class="color-red"><b class="work-title">Python</b><br>Week</span></li>
+                            <li><span class="spanicon"><i class="fa-brands fa-3x fa-react"></i></span><span class="color-red"><b class="work-title">React</b><br>Week</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 filter-round img-workskll">
+                    <div class="bgskill animate-righttoleft scollnep"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec-contact" class="sec-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="contact-title">Get In Touch.</h2>
+                </div>
+                <div class="col-3">
+                    <div class="contact-box text-center animate-righttoleft scollnep">
+                        <div class="contact-icon">
+                            <div class="circle-icon contact-icon">
+                                <i class="fa-solid fa-phone contact-icon-size"></i>
+                            </div>
+                        </div>
+                        <h5><a href="tel:+66629434425">+6662-9434-425</a></h5>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="contact-box text-center animate-righttoleft scollnep">
+                        <div class="contact-icon">
+                            <div class="circle-icon contact-icon">
+                                <i class="fa-solid fa-envelope contact-icon-size"></i>
+                            </div>
+                        </div>
+                        <h5><a href="mailto:jobkung555@gmail.com">jobkung555@gmail.com</a></h5>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="contact-box text-center animate-righttoleft scollnep">
+                        <div class="contact-icon">
+                            <div class="circle-icon contact-icon">
+                                <i class="fa-brands fa-facebook-square contact-icon-size"></i>
+                            </div>
+                        </div>
+                        <h5><a href="https://facebook.com/jobkung555">jobkung555</a></h5>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="contact-box text-center animate-righttoleft scollnep">
+                        <div class="contact-icon">
+                            <div class="circle-icon contact-icon">
+                                <i class="fa-brands fa-linkedin contact-icon-size"></i>
+                            </div>
+                        </div>
+                        <h5><a href="https://www.linkedin.com/in/job-nep-b24270154/">job-nep-b24270154</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="text-center">Copyright ©2022 Jobkung555 | Design & Developed by Jobkung555</div>
+    </footer>
 </body>
 
 <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg"
